@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre</title>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<style>
+    #menu a {
+        color: #FFF;
+        background-color: #252525;
+        text-decoration: none;
+        border-bottom: transparent solid 1px;
+        padding-bottom: 5px;
+    }
+
+    #menu a:hover {
+        color: #FFF;
+        background-color: #252525;
+        border-bottom: #00ff00 solid 1px;
+    }
+
+    .jumbotron.header{
+        background-color: green; 
+        color: white; 
+        background-image: linear-gradient(green, #003300);
+    }
+</style>
+<div class="jumbotron header text-center">
+    <h1>SOS CLOUD5</h1>
+    <p>Doação de roupas</p> 
+    Usuario: {{user}}
+</div>
+<div class="text-right mr-4">
+    <a href="/logout/">Sair</a> 
+</div>
+<div id="menu">
+    <ul class="nav ml-4">
+        <li class="nav-item">
+            <a class="nav-link" href="/roupas/all/">Inicial</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/roupas/user/">Minhas Roupas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/roupas/register/">Cadastrar Roupa</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="/roupas/sobre/">Sobre Nós</a>
+        </li>
+    </ul>
+</div>
+<br>
+</head>
+<body>
+    <center>
+        <h3>Nossa Localização:</h3>
+        <br />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.7051588324457!2d-47.01110498539546!3d-23.107886650886254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cf33b3d7ebc9c1%3A0x748e6bf6eb8ff1b7!2sNike!5e0!3m2!1spt-BR!2sbr!4v1591201073034!5m2!1spt-BR!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <br />
+        <hr>
+    </center>
+    <center>
+        <h3>Nosso Canal:</h3>
+        <br />
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dyXTPd-sAxc?start=45" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br />
+    </center>
+
+
+
+</body>
+</html>
+
+
+
